@@ -24,4 +24,5 @@ Route::get('/test','TestController@index');
 
 Route::resource('/customers','CustomerController');
 
-Route::get('/post/{hey}', 'PostController@show');
+Route::get('/post/{hello}', 'PostController@show');
+Route::get('/post/{howajshajshha}', 'PostController@show');
